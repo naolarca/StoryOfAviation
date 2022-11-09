@@ -1,0 +1,982 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Fri Mar 18 2022 15:41:55 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="sakharov.webflow.io" data-wf-page="617936a2cad5af85ea0654cb" data-wf-site="617936a2cad5af105e065401">
+<!-- Mirrored from sakharov.webflow.io/lib/intervyu-ulle-stenholmu by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Nov 2022 15:39:24 GMT -->
+<head><meta charset="utf-8"/><title>Interview with Olle Stenholm — sakharov.space</title><meta content="" name="description"/><meta content="Interview with Olle Stenholm — sakharov.space" property="og:title"/><meta content="" property="og:description"/><meta content="" property="og:image"/><meta content="Interview with Olle Stenholm — sakharov.space" property="twitter:title"/><meta content="" property="twitter:description"/><meta content="" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="U7MIBr5TboraF7vuTnfEQcScsDz-7oRKdS42jVrghaE" name="google-site-verification"/><meta content="Webflow" name="generator"/><link href="../../assets.website-files.com/617936a2cad5af105e065401/css/sakharov.webflow.fa68179cc.css" rel="stylesheet" type="text/css"/><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]--><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af7b2006573e_favicon-32x32.png" rel="shortcut icon" type="image/x-icon"/><link href="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5aff9ab065740_android-icon-192x192.png" rel="apple-touch-icon"/><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WQM9GGLW8Y"></script><script type="text/javascript">window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-WQM9GGLW8Y', {'anonymize_ip': false});</script><style>
+
+/* медиа запрос для safari */
+_::-webkit-full-page-media, _:future, :root .menu-link-h-item-1 {
+-webkit-text-fill-color: rgb(255, 255, 255);}
+_::-webkit-full-page-media, _:future, :root .menu-link-h-item-2 {
+-webkit-text-fill-color: rgb(255, 255, 255);}
+_::-webkit-full-page-media, _:future, :root .menu-link-h-item-3 {
+-webkit-text-fill-color: rgb(255, 255, 255);}
+  
+  
+body {
+	-webkit-font-smoothing: antialiased
+}  
+
+.video-container-placeholder-1 {
+  transform: translateZ(0);
+}  
+
+.video-container-placeholder-2 {
+  transform: translateZ(0);
+}
+ 
+.video-container-placeholder-3 {
+  transform: translateZ(0);
+}
+
+.w-embed-youtubevideo {
+	background-image: none !important;
+	}
+
+@media screen and (max-width: 479px) {
+.menu-link-h-item-1 {
+	-webkit-text-fill-color: white;
+}
+.menu-link-h-item-2 {
+	-webkit-text-fill-color: white;
+}
+.menu-link-h-item-3 {
+	-webkit-text-fill-color: white;
+}
+.menu-link-h-item-1-p9 {
+	-webkit-text-fill-color: white;
+}
+.menu-link-h-item-2-p9 {
+	-webkit-text-fill-color: white;
+}
+.menu-link-h-item-3-p9 {
+	-webkit-text-fill-color: white;
+}  
+}
+  
+</style>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "../../mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(75090658, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/75090658" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+// скрипт редиректит пользователя на en/ru в соответствии его настройкам
+// на компьютере, если он еще сам не выбрал язык. Работать будет как
+// только на главной, так и на всем сайте.
+(()=>{
+  const pathname = getNormalizedPathname();
+  const currentLang = getCurrentLang();
+  const savedLang = getCookie('selected-lang');
+  const urlStartsBlackList = ['/lib/','../bio/index.html', '/stories/'];
+  const urlAllowed = urlStartsBlackList.every(part=>!pathname.startsWith(part));
+  const browserSettingsLang  = window.navigator.language.slice(0, 2) === "ru" ? "ru" : "en";
+  
+  if(urlAllowed && !savedLang && browserSettingsLang !== currentLang){
+    const nextLangLocation = getSwitchedLangPath(currentLang, browserSettingsLang)
+    if(nextLangLocation){
+      window.location.href = nextLangLocation;
+    }
+    return;
+  }
+
+  function getNormalizedPathname(){
+    const {pathname} = window.location;
+    return pathname.endsWith('../index.html') ? pathname : pathname+'/';
+  }
+  
+  function getSwitchedLangPath(currentLang, requestedLang){
+    const urlRedirectRule = getUrlRedirectRule(currentLang, requestedLang);
+    
+    if(!urlRedirectRule) return;
+    
+    const [currentLangPart, requestedLangPart] = getReplaceParts(urlRedirectRule, currentLang, requestedLang);
+
+    const urlReplaceRegexp = new RegExp(`^${currentLangPart}`);
+    
+    const pathname = getNormalizedPathname();
+
+    return pathname.replace(urlReplaceRegexp, requestedLangPart)
+  }
+  
+  function getUrlRedirectRule(currentLang, requestedLang){
+    const pathname = getNormalizedPathname();
+    const urlRedirectRules = [
+      {ru: '/$', en: '/en/$'},
+      {ru: '/ru/', en: '/en/'},
+      {ru: '/ru-lib/', en: '/en-lib/'},
+      {ru: '/ru-bio/', en: '/en-bio/'},
+      {ru: '/ru-stories/', en: '/en-stories/'},
+    ]
+    const urlRedirectRule = urlRedirectRules.find(rule=>{
+      const urlLangPart = rule[currentLang];
+      if(urlLangPart.endsWith('$')){
+        return pathname === urlLangPart.slice(0,-1);
+      }
+      return pathname.startsWith(urlLangPart);
+    })
+    return urlRedirectRule;
+  }
+   
+  function getReplaceParts(urlRedirectRule, currentLang, requestedLang){
+    const currentLangPart = urlRedirectRule[currentLang].replace('$', '');
+    const requestedLangPart = urlRedirectRule[requestedLang].replace('$', '');
+    return [currentLangPart, requestedLangPart];
+  }
+  
+  function getCurrentLang(){
+    const pathname = getNormalizedPathname();
+    const ruUrlDetectParts = ['/ru/', '../ru-lib/index.html', '../ru-bio/index.html', '/ru-stories/'];
+    const urlContainRuPart = ruUrlDetectParts.some(part=>pathname.startsWith(part));
+    return urlContainRuPart || pathname === '/' ? 'ru' : 'en';
+  }
+  
+  function getCookie(name) {
+    let matches = document.cookie.match(new RegExp(
+      "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+    ));
+    return matches ? decodeURIComponent(matches[1]) : undefined;
+  }
+})()
+</script>
+<meta name="yandex-verification" content="bff5672b20baa49c" />
+<link rel="stylesheet" href="../../cdn.jsdelivr.net/npm/locomotive-scroll%404.0.6/dist/locomotive-scroll.min.css"><style>
+/* анимация появления */
+.animate-container {
+	opacity: 0;
+}
+
+/* стили чтобы кастомизировать рич текст */
+@media screen and (min-width: 479px) {
+.bt-lang.js-switch-lang {
+    display: none;
+}
+.lib-content-sidebar p{
+  font-size: 1vw !important;
+  line-height: 155% !important;
+  padding-right: 2vw !important;
+}
+.lib-content-sidebar .w-embed{
+	margin-bottom: 2.6vw !important;
+}
+.lib-content-sidebar img{
+	margin-bottom: 1.39vw !important;
+  width: 18.4vw !important;
+}
+.lib-content-sidebar figcaption {
+	font-size: 1vw !important;
+	line-height: 155% !important;
+	font-family: 'TT Commons',sans-serif !important;
+	color: #959595 !important;
+	margin-top: 0px !important;
+	text-align: left !important;
+  /* padding-right: 5vw !important; */
+}
+.lib-content-sidebar figure{
+	text-align: left !important;
+  max-width: none !important;
+}
+.lib-content-el figure{
+	min-width: 100% !important;
+  width: 100% !important;
+  float: none !important;
+}
+.lib-content-el img{
+	margin-bottom: 1.4vw !important;
+  min-width: 69vw !important;
+  width: 69vw !important;
+  margin-left: -23.9vw !important;
+  max-height: 45vw !important;
+  background-color: #F5F5F5;
+  background-size: auto !important;
+  -o-object-fit: contain !important;
+  object-fit: contain !important;
+}
+.lib-content-el figcaption{
+  width: 48vw !important;
+	font-size: 1vw !important;
+	line-height: 155% !important;
+	font-family: 'TT Commons',sans-serif !important;
+	color: #959595 !important;
+	margin-top: 0px !important;
+	text-align: left !important;
+  padding-right: 5vw !important;
+  margin-bottom: 2vw !important;
+  margin-left: -23.9vw !important;
+}
+.lib-content-el li{
+  padding-left: 2.3vw;
+}
+.lib-content-el li::marker{
+	color: #A8A8A8;
+  font-family: 'Praho Pro',sans-serif;
+  font-size: 1.25vw;
+}
+.lib-content-sidebar a{
+	color: #BB893E;
+}
+.lib-content-sidebar a:hover{
+	text-decoration: underline !important;
+}
+/* параметры для embed */
+.lib-content-el .w-richtext-figure-type-video {
+  margin-top: 1.4vw !important;
+  margin-left: -23.9vw !important;
+  margin-bottom: 2.8vw !important;
+}
+.lib-content-el .w-richtext-figure-type-video iframe{
+  width: 68.4vw !important;
+}
+.lib-content-el .w-richtext-align-fullwidth.w-richtext-figure-type-video {
+	padding-top: 38% !Important;
+}
+.lib-content-el .w-embed.w-iframe {
+    margin-left: -23.9vw !important;
+}
+iframe {
+    width: 100% !important;
+}
+}
+</style>
+
+<style>
+/* стили для скрипта с next post */
+.post-load-image {
+  display: none;
+}
+/* сделать слайдер некликабельным */
+.lib-slider-img {
+	pointer-events: none; 
+}
+/* для ломающихся градиентов в оглавлении*/
+.pag-entry-gradient {
+background-image: linear-gradient(270deg,rgba(255, 255, 255, 1),rgba(255, 255, 255, 0)) !important;
+}
+.pag-entry-gradient.gray {
+background-image: linear-gradient(270deg,hsla(0,0%,94.9%,1),hsla(0,0%,94.9%,0)) !important;
+}
+</style>
+<script type="text/javascript">window.__WEBFLOW_CURRENCY_SETTINGS = {"currencyCode":"USD","$init":true,"symbol":"$","decimal":".","fractionDigits":2,"group":",","template":"{{wf {\"path\":\"symbol\",\"type\":\"PlainText\"} }} {{wf {\"path\":\"amount\",\"type\":\"CommercePrice\"} }} {{wf {\"path\":\"currencyCode\",\"type\":\"PlainText\"} }}","hideDecimalForWholeNumbers":false};</script></head><body><div class="animate-container"><div class="scroll-load"></div><div class="menu-container"><div class="en-menu"><div class="menu"><nav class="menu-bar"><a href="../en.html" class="menu-bar__logo w-inline-block"><div class="logo-menu-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af7e1a0658ac_menu-bar__logo-desktop-white.svg" loading="lazy" alt="" class="logo-menu-light"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af68ff06586c_menu-bar__logo-desktop-black.svg" loading="lazy" alt="" class="logo-menu"/></div><div class="logo-mobile-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5aff9e6065807_mob-logo-black.svg" loading="lazy" alt="" class="logo-menu-mobile-black"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af47ed065802_mob-logo-white.svg" loading="lazy" alt="" class="logo-menu-mobile-white"/></div></a><div class="menu-bar__bt"></div><div id="bgImgButtonEn" data-w-id="9f488bf5-2e29-19be-049f-29ba33f46c26" class="menu-area-bt"></div><div class="menu-open__bar-buttom-block"><div data-lang="ru" class="bt-lang js-switch-lang"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af8ad406585c_menu-lang-ru_white.svg" loading="lazy" alt="" class="ic-lang-white"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af090206586b_menu-lang-ru_black.svg" loading="lazy" alt="" class="ic-lang-black"/></div><div class="bt-sound"><div class="bt-sound-on"><div class="ic-sound-white"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af236906585f_menu-ic-sound-on_white.svg" loading="lazy" alt="" class="ic-sound-on"/></div><div class="ic-sound-black"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af164c06585e_menu-ic-sound_black.svg" loading="lazy" alt="" class="ic-sound"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af841e065863_menu-ic-sound-on_black.svg" loading="lazy" alt="" class="ic-sound-on"/></div></div><div class="bt-sound-off"><div class="ic-sound-white"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/></div><div class="ic-sound-black"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af164c06585e_menu-ic-sound_black.svg" loading="lazy" alt="" class="ic-sound"/></div></div></div></div></nav><nav class="menu-open"><div class="menu-bar-open-inner"><div id="bgImgButtonReturnEn" data-w-id="9f488bf5-2e29-19be-049f-29ba33f46c29" class="menu-area-bt"></div><a href="../index.html" class="menu-open-bar-logo w-inline-block"><div class="logo-menu-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af7e1a0658ac_menu-bar__logo-desktop-white.svg" loading="lazy" alt="" class="logo-menu-open-menu"/></div></a><div class="menu-open__bar-bt"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af16ca06565e_menu-bt-open.svg" loading="lazy" alt="" class="ic-menu-open"/></div><div class="menu-open__bar-buttom-block"><div data-lang="ru" class="bt-lang js-switch-lang"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af8ad406585c_menu-lang-ru_white.svg" loading="lazy" alt="" class="ic-lang-menu"/></div><div class="bt-sound"><div data-w-id="50967a2d-2f5c-2c30-62d9-12bc7fc3aa4b" class="bt-sound-on"><div class="ic-sound-menu"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af236906585f_menu-ic-sound-on_white.svg" loading="lazy" alt="" class="ic-sound-on"/></div></div><div class="bt-sound-off"><div class="ic-sound-menu"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/></div></div></div></div></div><div class="menu-open__bt-section"><div class="menu-open__h-blocks"><div class="menu-open__h-block-1"><a id="bgImgContainer1En" href="../en/chapter-1.html" class="menu-link-h-item-1 w-inline-block"><div class="menu_h1 light">life</div></a></div><div class="menu-open__h-block-2 en"><a id="bgImgContainer2En" href="../en/anniversary" class="menu-link-h-item-2 en w-inline-block"><div class="menu_h1 light">100 years</div></a><div class="menu-open__h-block-3-container-text"><div class="menu_p-normal">Events for the Andrei Sakharov Centenary<br/>Around the World<br/></div></div></div><div class="menu-open__h-block-3"><a id="bgImgContainer3En" href="../en/library.html" class="menu-link-h-item-3 w-inline-block"><div class="menu_h1 light">Library</div></a><div class="non-active-hover-card en"><div class="p-normal light">soon</div></div></div></div><div class="menu-open__elements-block-1"><div class="menu-open__elements-element-1"><a href="https://youtu.be/kGvBTUhccCA" target="_blank" class="w-inline-block"><div data-w-id="9f488bf5-2e29-19be-049f-29ba33f46c4e" class="menu-open__elements-bl-1-container-video"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af42ac0656a3_play-ic-video.svg" loading="lazy" alt="" class="menu-open__video-ic"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af63e206566c_video-placeholder-photo.jpg" loading="lazy" alt="" class="menu-open__video-placeholder"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af027d0656a4_video-placeholder-opacity-screen.png" loading="lazy" alt="" class="menu-open__video-fade-screen"/></div></a></div><div class="menu-open__elements-element-2"><div class="menu-open__bl-2-elements-bt-list"><a href="#" class="elements-bt-list-item-1 non-active w-inline-block"><div class="menu_p-normal light mobile-gray non-active">Complete Biography</div></a><a href="#" class="elements-bt-list-item-2 non-active w-inline-block"><div class="menu_p-normal light mobile-gray non-active">Longreads</div></a><a href="../en/about" class="elements-bt-list-item-3 w-inline-block"><div class="menu_p-normal light mobile-gray">About the Project</div></a></div></div></div><div class="menu-open__elements-block-2"><div class="menu-open__elements-element-4"><div class="menu-open__elements-bl-2-item-1 no-link"><div class="menu_p-normal gray quasi-menu-p-x-smalll">The Sakharov Center is entered by the Ministry of Justice into the registry, stipulated under Art. 13.1, par. 10 of the Federal Law on Non-Commercial Organizations</div></div></div><div class="menu-open__elements-element-3"><a href="https://redis.agency/" target="_blank" class="menu-open__elements-bl-2-item-1 w-inline-block"><div class="menu_p-normal gray">Made by Redis</div></a></div><div class="menu-open__elements-line-mob"></div></div><div class="menu-open__elements-line"></div></div><div class="menu-open__bg"><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af456d0656dd_bg-open-menu-2-mobile.png" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af456d0656dd_bg-open-menu-2-mobile-p-500.png 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af456d0656dd_bg-open-menu-2-mobile.png 750w" alt="" class="menu-open-bg-2-mobile"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask.png" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-500.png 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-800.png 800w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-1080.png 1080w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-1600.png 1600w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask.png 1875w" alt="" class="menu-open-bg-black-mask"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1.jpg" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1-p-1080.jpeg 1080w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1.jpg 1441w" alt="" class="menu-open-bg-1"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2.png" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-500.png 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-800.png 800w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-1080.png 1080w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-1600.png 1600w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-2000.png 2000w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2.png 2880w" alt="" class="menu-open-bg-2"/></div></nav><div data-w-id="9f488bf5-2e29-19be-049f-29ba33f46c6c" class="menu-bt-mobile"></div></div></div><div class="ru-menu w-condition-invisible"><div class="menu"><nav class="menu-bar"><a href="../index.html" class="menu-bar__logo w-inline-block"><div class="logo-menu-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af7e1a0658ac_menu-bar__logo-desktop-white.svg" loading="lazy" alt="" class="logo-menu-light"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af68ff06586c_menu-bar__logo-desktop-black.svg" loading="lazy" alt="" class="logo-menu"/></div><div class="logo-mobile-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5aff9e6065807_mob-logo-black.svg" loading="lazy" alt="" class="logo-menu-mobile-black"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af47ed065802_mob-logo-white.svg" loading="lazy" alt="" class="logo-menu-mobile-white"/></div></a><div class="menu-bar__bt"></div><div id="bgImgButton" data-w-id="ec3fee55-0b32-cb2e-67a2-63e86c050445" class="menu-area-bt"></div><div class="menu-open__bar-buttom-block"><div data-lang="en" class="bt-lang js-switch-lang"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1e75065870_menu-lang-en_white.svg" loading="lazy" alt="" class="ic-lang-white"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af3bbf06586e_menu-lang-en_black.svg" loading="lazy" alt="" class="ic-lang-black"/></div><div class="bt-sound"><div data-w-id="59fd7cb3-f8c0-e081-9339-a1a317feace7" class="bt-sound-on"><div class="ic-sound-white"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af236906585f_menu-ic-sound-on_white.svg" loading="lazy" alt="" class="ic-sound-on"/></div><div class="ic-sound-black"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af164c06585e_menu-ic-sound_black.svg" loading="lazy" alt="" class="ic-sound"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af841e065863_menu-ic-sound-on_black.svg" loading="lazy" alt="" class="ic-sound-on"/></div></div><div class="bt-sound-off"><div class="ic-sound-white"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/></div><div class="ic-sound-black"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af164c06585e_menu-ic-sound_black.svg" loading="lazy" alt="" class="ic-sound"/></div></div></div></div></nav><nav class="menu-open"><div class="menu-bar-open-inner"><div id="bgImgButtonReturn" data-w-id="662fab3f-8573-36bf-29a9-0b22f72560a4" class="menu-area-bt"></div><a href="../index.html" class="menu-open-bar-logo w-inline-block"><div class="logo-menu-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af7e1a0658ac_menu-bar__logo-desktop-white.svg" loading="lazy" alt="" class="logo-menu-open-menu"/></div></a><div class="menu-open__bar-bt"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af16ca06565e_menu-bt-open.svg" loading="lazy" alt="" class="ic-menu-open"/></div><div class="menu-open__bar-buttom-block"><div data-lang="en" class="bt-lang js-switch-lang ru"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1e75065870_menu-lang-en_white.svg" loading="lazy" alt="" class="ic-lang-menu"/></div><div class="bt-sound ru"><div class="bt-sound-on"><div class="ic-sound-menu"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af236906585f_menu-ic-sound-on_white.svg" loading="lazy" alt="" class="ic-sound-on"/></div></div><div class="bt-sound-off"><div class="ic-sound-menu"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5915065878_menu-ic-sound_white.svg" loading="lazy" alt="" class="ic-sound"/></div></div></div></div></div><div class="menu-open__bt-section"><div class="menu-open__h-blocks"><div class="menu-open__h-block-1"><a id="bgImgContainer1" href="../ru/chapter-1" class="menu-link-h-item-1 w-inline-block"><div class="menu_h1 light">Жизнь</div></a></div><div class="menu-open__h-block-2"><a id="bgImgContainer2" href="../ru/library" class="menu-link-h-item-2 w-inline-block"><div class="menu_h1 light">библиотека</div></a><div class="non-active-hover-card"><div class="p-normal light">скоро открытие</div></div></div><div class="menu-open__h-block-3"><a id="bgImgContainer3" href="../ru/anniversary" class="menu-link-h-item-3 w-inline-block"><div class="menu_h1 light">100 лет</div></a><div class="menu-open__h-block-3-container-text"><div class="menu_p-normal">События к 100-летию Андрея Сахарова во всем мире</div></div></div></div><div class="menu-open__elements-block-1"><div class="menu-open__elements-element-1"><a href="https://youtu.be/6aDATNH7NCE" target="_blank" class="w-inline-block"><div data-w-id="53a3a11f-358f-910b-871d-0cd0fad59ecd" class="menu-open__elements-bl-1-container-video"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af42ac0656a3_play-ic-video.svg" loading="lazy" alt="" class="menu-open__video-ic"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af63e206566c_video-placeholder-photo.jpg" loading="lazy" alt="" class="menu-open__video-placeholder"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af027d0656a4_video-placeholder-opacity-screen.png" loading="lazy" alt="" class="menu-open__video-fade-screen"/></div></a></div><div class="menu-open__elements-element-2"><div class="menu-open__bl-2-elements-bt-list"><a href="https://www.sakharov.space/bio/glava-1-semya-detstvo-yunost" class="elements-bt-list-item-1 w-inline-block"><div class="menu_p-normal light mobile-gray">Полная биография</div></a><a href="https://www.sakharov.space/stories/sekretnaya-zagadka-tretey-idei-i-ee-razgadka" class="elements-bt-list-item-2 w-inline-block"><div class="menu_p-normal light mobile-gray">Лонгриды</div></a><a href="../ru/about.html" class="elements-bt-list-item-3 w-inline-block"><div class="menu_p-normal light mobile-gray">О проекте</div></a></div></div></div><div class="menu-open__elements-block-2"><div class="menu-open__elements-element-4 ru"><div class="menu-open__elements-bl-2-item-1 no-link"><div class="menu_p-normal gray quasi-menu-p-x-smalll">Сахаровский центр внесен Минюстом в реестр, предусмотренный п. 10 ст. 13.1 ФЗ «Об НКО»</div></div></div><div class="menu-open__elements-element-3"><a href="http://red-is.ru/?utm_source=sakharov&amp;utm_medium=organic&amp;utm_campaign=menu" target="_blank" class="menu-open__elements-bl-2-item-1 w-inline-block"><div class="menu_p-normal gray">Redis — создание сайта</div></a></div><div class="menu-open__elements-line-mob"></div></div><div class="menu-open__elements-line"></div></div><div class="menu-open__bg"><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af456d0656dd_bg-open-menu-2-mobile.png" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af456d0656dd_bg-open-menu-2-mobile-p-500.png 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af456d0656dd_bg-open-menu-2-mobile.png 750w" alt="" class="menu-open-bg-2-mobile"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask.png" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-500.png 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-800.png 800w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-1080.png 1080w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask-p-1600.png 1600w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af1c150656c9_bg-open-menu-black-mask.png 1875w" alt="" class="menu-open-bg-black-mask"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1.jpg" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1-p-1080.jpeg 1080w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af55ac0656cc_bg-open-menu-1.jpg 1441w" alt="" class="menu-open-bg-1"/><img src="../../assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2.png" loading="lazy" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-500.png 500w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-800.png 800w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-1080.png 1080w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-1600.png 1600w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2-p-2000.png 2000w, https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5afbb820656d7_bg-open-menu-2.png 2880w" alt="" class="menu-open-bg-2"/></div></nav><div data-w-id="317d5761-7183-f3e6-75ee-8e4228cf76cb" class="menu-bt-mobile"></div></div></div></div><div class="navigation-menu"><div class="navigation-menu__bar-lib bio post"><div class="navigation-menu__left-bar-block"><a href="#" class="left-bar-block__link-element bio post w-inline-block"><div class="left-bar-block__link-text"><div class="menu_p-small mobile-non-visible none-animate bio">Article :</div><div class="menu_p-small mobile-visible bio">Articles</div></div><div class="menu_p-small light none-animate bio">Interview with Olle Stenholm</div></a></div><div class="navigation-menu__right-bar-block"><div class="text-block-right__text-element bio"><div class="menu_p-small black">Contents</div></div><div class="right-bar-block__icon-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af893306585d_nav-menu-icon-paragraph.svg" loading="lazy" alt="" class="right-bar-block__icon"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af712106573a_nav-menu-ic-close-white.svg" loading="lazy" alt="" class="right-bar-block__icon-close"/></div></div></div><div class="navigation-menu__bar-lib bio post w-condition-invisible"><div class="navigation-menu__left-bar-block"><a href="#" class="left-bar-block__link-element bio post w-inline-block"><div class="left-bar-block__link-text"><div class="menu_p-small mobile-non-visible none-animate bio">Статья :</div><div class="menu_p-small mobile-visible bio">Биография</div></div><div class="menu_p-small light none-animate bio">Interview with Olle Stenholm</div></a></div><div class="navigation-menu__right-bar-block"><div class="text-block-right__text-element bio"><div class="menu_p-small black">Оглавление</div></div><div class="right-bar-block__icon-container"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af893306585d_nav-menu-icon-paragraph.svg" loading="lazy" alt="" class="right-bar-block__icon"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af712106573a_nav-menu-ic-close-white.svg" loading="lazy" alt="" class="right-bar-block__icon-close"/></div></div></div><div class="nav-menu__popup"><div class="nav-bar-fill"><div class="menu_p-small">Contents</div><div class="menu_p-small w-condition-invisible">Оглавление</div></div><div class="container-scroll-pagination"><div data-w-id="020a4bc5-4a3c-0999-1e4f-aad58870e143" class="lib-post-header__pagination-popup js-post-nav-container-popup"><a href="#" class="lib-post-header__pagination-entry js-post-nav-template-popup w-inline-block"><div class="pag-entry-text-container"><div class="pag-entry-gradient gray"></div><div class="lib-p-small js-post-nav-template-text">Рассекреченная история Рассекреченная история Рассекреченная история Рассекреченная история Рассекреченная история Рассекреченная история</div></div><div class="lib-p-small margin-left-1 js-post-nav-template-number">01</div></a></div></div></div><div class="nav-bar-pagination-trigger"><div class="nav-bar-pag-trig__open-state"></div><div class="nav-bar-pag-trig__close-state"></div></div></div><div class="scroll-marker-trigger"><div class="lib-post-header wf-section"><div class="lib-post-header__pagination js-post-nav-container hide-6-entry"><a data-w-id="c93dc494-a60c-1d24-d50d-8d9168fed606" href="#" class="lib-post-header__bt-more bt-more w-inline-block"><div class="lib-p-small js-post-nav-template-text">Open contents</div><div class="lib-p-small js-post-nav-template-text w-condition-invisible">Раскрыть оглавление</div><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af5fec065874_ic-dropdown.svg" loading="lazy" alt="" class="lib-bt-more-dropdown"/></a><a href="#" class="lib-post-header__pagination-entry js-post-nav-template w-inline-block"><div class="pag-entry-text-container"><div class="pag-entry-gradient"></div><div class="lib-p-small js-post-nav-template-text">Рассекреченная история Рассекреченная история Рассекреченная история Рассекреченная история 3 3 3 3 3 3</div></div><div class="lib-p-small margin-left-1 js-post-nav-template-number">01</div></a></div><div class="lib-post-header__h-container w-clearfix"><div class="lib-post-header__h-line"><div class="lib-post-header__wrapper"><div class="lib-p-small">Author:</div><div class="lib-p-small w-condition-invisible">Автор:</div><div class="lib-p-small">Andrei Sakharov. 1973</div></div></div><div class="lib-h1">Interview with Olle Stenholm</div><div class="mob-lib-post-header__author"><div class="lib-p-small margin-right">Автор:</div><div class="lib-p-small">Andrei Sakharov. 1973</div></div></div><div class="lib-post-header__img-container w-condition-invisible"><div class="lib-post-header__img-overlay"></div><img src="#" loading="lazy" alt="" class="lib-post-header__img w-dyn-bind-empty"/><div class="lib-post-header__sign-container w-condition-invisible"><div class="lib-p-small light high-vert-space w-dyn-bind-empty"></div></div></div></div><div class="lib-post-container wf-section"><div class="sticky-container-share-bts"><div class="container-share-bts"><a href="../en/library.html" class="bt-share back w-inline-block"></a><a href="../ru/library" class="bt-share back w-inline-block w-condition-invisible"></a><div id="BtnTW" class="bt-share tw"></div><div id="BtnVK" class="bt-share vk"></div><div id="BtnFB" class="bt-share fb"></div></div></div><div class="lib-post-wrapper"><div class="lib-post-first-text w-clearfix"><div class="lib-letter w-dyn-bind-empty"></div><div class="lib-h5 w-dyn-bind-empty"></div></div><div class="w-dyn-list"><div role="list" class="js-head-container w-dyn-items"><div role="listitem" class="w-dyn-item"><div class="lib-post-slider-container w-condition-invisible"><div class="w-dyn-list"><div class="w-dyn-empty"><div>No items found.</div></div></div><div data-delay="4000" data-animation="slide" class="lib-post-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true"><div class="lib-slider-mask w-slider-mask"><div class="lib-post-slide-container w-slide"><div class="lib-post-slide"><div class="lib-post-slide-text"><div class="lib-p-small high-vert-space light">This is some text inside of a div block.</div></div><img src="https://assets.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="lib-slider-img"/></div></div></div><div class="lib-slider-left-arrow w-slider-arrow-left"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af2c730658bf_arrow-right.svg" loading="lazy" alt="" class="lib-slider-arrow-left"/></div><div class="lib-slider-right-arrow w-slider-arrow-right"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af2c730658bf_arrow-right.svg" loading="lazy" alt="" class="lib-slider-arrow-right"/></div><div class="slide-nav w-slider-nav w-round"></div></div></div><div class="lib-content-text-el"><div class="lib-content-sidebar w-richtext"><p>This is the full text of the interview that Sakharov gave to Olle Stenholm of Swedish Radio and Television. It was first broadcast on 2 July, 1973. Published in <em>Index on Censorship Volume 2, 1973 – Issue 4: Soizhenistsyn</em></p><p>‍</p></div><div class="lib-content-el w-richtext"><p>... The most natural thing for any person in this situation is to regard his own system as the best. So that any deviation from the line is already something in the nature of a psychological process.</p><p>When I wrote <a href="https://www.sakharov.space/lib/thoughts-on-peace-progress-and-intellectual-freedom">my essay in 1968</a> the process was still in its early stages, even my approach was more abstract. My life has been such that I have grappled in the first instance with global problems and only later come to the more concrete, personal, human ones. You have to understand this when you evaluate my 1968 treatise, you have to bear in mind anyway the path I have come to take – from my work on thermonuclear weapons, from my alarm at nuclear tests, at the destruction of people, at the genetic consequences, at all these things.</p><p>And I was very remote, so to speak, from the basic problems of the people as a whole, the country as a whole. I was in a very privileged position materially, isolated from people.</p><p><em>But then later on?</em>‍</p><p>Later on my life somehow altered on a purely personal level, psychologically, it was simply a further stage in the development of the process.</p><p>But what is socialism? I started out, as it were, by thinking that I understood what it was and that I saw it as a good thing. Then I gradually ceased to understand a great deal. I found that I failed to understand the very (bases) of the economy, failed to understand if there were anything more to it than mere words or propaganda for domestic and foreign consumption. The (Soviet) state represents an extreme concentration of economic, political and ideological power, that is, extreme monopolisation. It stares you in the face. You could say, as Lenin did at the start of our revolution, that it is simply state capitalism, that is, the state acting as sole proprietor of the entire economy. But in that case there&#x27;s nothing new at all about this socialism. It&#x27;s simply capitalism developed to its extremes, the sort of capitalism you have in the United States, for example, and other western countries, but with extreme monopolisation. We ought not to be surprised, then, that we have the same problems, qualitatively speaking, the same criminality, the same alienation of the individual, as the capitalist world. With the difference that our society is an extreme instance, as it were, extremely unfree, extremely constrained ideologically and with a kind of . . . And – what is probably the most characteristic feature – it&#x27;s the most pretentious society; it&#x27;s not the best society but it claims to be far better than all the others.</p><p><em>What do you see, in concrete terms, as the greatest defects in Soviet society today?</em>‍</p><p>The absence of freedom, almost certainly. The absence of freedom, the bureaucratisation of the administration, the utter irrationality and the dreadful egoism of it, a class egoism, if you like, concerned in essence only with preserving the existing system and maintaining a facade of decency to cover up what is a very unpropitious internal state of affairs. A society very much on the decline. I&#x27;ve said all that in my writings. And that it must be widely known, common knowledge to all careful observers that all our social services are more for show than matters of fact. That applies to education, to the way it&#x27;s organised, and to the health service. People in the West often say this: &quot;Yes, you do have many shortcomings, but on the other hand you have free medical assistance!&quot; Well, it&#x27;s no freer here than in most western countries, in fact it&#x27;s frequently less free, as they say, and the general standard is very low.</p><p><em>Do you regard Soviet society today as a class society?</em>‍</p><p>Well, that&#x27;s another theoretical question, a question that has to be treated theoretically. A society with a tremendous lack of internal equality, at any rate . . . But can it be said to be a class structure? In a sense it is a peculiar kind of society. Whether one can call it a class society is hard to say. To a certain extent it&#x27;s a question of definition. It&#x27;s a little like the argument we had last time about what society can be called a fascist society. That&#x27;s a question of definition too, a question of terminology.</p><p><em>But the inequality, then?</em></p><p>There is inequality at many, many levels. Inequality between the rural and urban populations, where you have the collective farm worker with no passport, to all intents and purposes chained to his place of residence, his collective farm. He can only leave the farm if they agree to release him (which they usually do, I grant them that). There&#x27;s inequality between different areas: Moscow and the large cities, which are privileged in terms of supply, life-style, cultural facilities, and all the other places. And the passport system reinforces, as it were, these divisions, this territorial heterogeneity.</p><p><em>You said earlier that you yourself were a privileged person?</em>‍</p><p>I am privileged, of course, and these days I&#x27;m privileged from force of inertia too. I was privileged, supra-privileged because I worked at the very top of the arms industry. It meant – by Soviet standards – a colossal salary and bonuses.</p><p><em>What privileges do you think party workers enjoy in the Soviet Union?</em>‍</p><p>They have enormous extra-financial privileges. All sorts of things – a network of sanatoria, a medical service... enormous privileges. There are very real privileges arising from [personal] connexions, various personal factors. Privileges in one&#x27;s work, one&#x27;s career. All managerial posts of any standing are either . . . well, a factory manager or a chief engineer, for example, only a party member can get the job. Exceptions are very rare. So your career depends very much indeed on your party<br/>membership, your position in the party structure, and your official...</p><p>But as well as this, there&#x27;s the traditional attitude to party cadres implied in the concept of &#x27; nomenklatura&#x27;. According to this, even if a person is a failure in his job, so long as he has been a leading party worker, he is transferred to some other job with very similar material advantages. The whole business of nomination and promotion in one&#x27;s job is very closely linked with certain interrelationships within this system. Every big administrator has, of course, people who are his personal associates and who transfer with him from one place to another when he moves. There is absolutely no way of overcoming this; it&#x27;s obviously become a sort of law in the state structure.</p><p>But talking of material perks, the main ones form an isolated and more or less clearly defined group which applies especially to the administration. They are assigned on the basis of party membership, but there are very big internal distinctions within the party itself also. It looks as though something rather like Orwell&#x27;s inner party does exist in our country in a certain sense.</p><p>The people who belong to this inner party, then, enjoy tremendous material privileges. There&#x27;s a system whereby they are paid extra wages in [special] envelopes. It&#x27;s a practice that comes and goes. I don&#x27;t know what the situation is at the moment, but it looks as if the custom has been revived in some places. Then there&#x27;s the system of closed retail distribution shops where the goods are not only more varied and of higher quality, but even the prices are different, which means that the same currency buys these people goods at a different price in a different shop. In other words, the real amount of their wages is not particularly indicative either.</p><p><em>We have talked a great deal about the defects [in society]. Now, of course, there is the problem of what can be done to rectify them.</em></p><p>What we can do and what we should aspire to are different matters. I feel there is hardly anything that can be done, but.. .</p><p><em>Why not?</em>‍</p><p>Because the system is intrinsically a very stable one. The more unfree a system, the more intrinsically it is preserved, as a rule.</p><p><em>But can external forces not do anything?</em>‍</p><p>We don&#x27;t understand sufficiently well what the outside world is doing. It looks perhaps more as if the outside world is accepting our rules of the game. Which is a very bad thing. But there is another side to the matter. The fact that we are now breaking out of our fifty years of isolation may in time even have a beneficial influence. But it&#x27;s very difficult to forecast how all this will come about. As far as the West is concerned, we can never make out whether it is a desire to help us or, on the contrary, a sort of capitulation, a game based on western domestic interests, where we are merely the small change.</p><p><em>But those are forces acting abroad. What about inside the Soviet Union?</em>‍</p><p>There are certainly some processes at work inside the Soviet Union, but for the moment they are so indistinct and so deeply hidden that it&#x27;s almost impossible to forecast anything positive, any changes at all, any positive ones . . . We realise that a state as huge as ours can never be internally homogeneous, but in the absence of information, in the absence of contact between different groups of people, it is almost impossible to understand what is going on inside it. We know that nationalist tendencies in the peripheral areas of the state are very strong. But whether they are positive or not in each individual case is rather difficult to say. In some cases, the Ukraine for instance, they have become very closely interwoven with democratic trends. It&#x27;s the same in the Baltic states: religious and nationalist matters merge easily and naturally with democratic ideas. But perhaps in other areas this is not so. We don&#x27;t know the details.</p><p><em>So you are in fact extremely sceptical although you yourself...</em>‍</p><p>On the whole I&#x27;m sceptical about socialism in general. I do not see that socialism offers us anything new on the theoretical level, so to speak, for a better way of organising society. It simply seems to be that although there may even be a few positive variants – life is diverse enough – the development of our state as a whole has<br/>exhibited more destructive than constructive features. Or rather, the constructive features have been due to general human factors: there may have been quite a number of them, but they were general human factors which could have arisen in any other environment; while in our society there has been such an accumulation of fierce political struggle, destruction, and bitterness, that we are now reaping the sad fruits of exhaustion, apathy, cynicism, a kind of . . . which we are having the greatest difficulty in shaking off, in shaking off at all. In what ways our society will develop is very hard to forecast from inside. Perhaps it&#x27;s easier from outside, but one must do so with the minimum of preconceptions.</p><p><em>But Andrei Dmitrievich, you say you doubt whether anything at all can be achieved in the way of reforming the Soviet system, and yet you yourself go on doing what you do, writing statements, protesting. Why?</em>‍</p><p>One always needs to create ideals for oneself even when one can see no direct way of realising them, because if one had no ideals one would no longer have any hopes, and then one would really feel one was groping in the dark, in an impasse.</p><p>Moreover, we are not sure if there are any possible ways in which our country can interact with the outside world. If we don&#x27;t get any indication that this situation in our country is unfavourable . . . then we shall not even be able to take advantage of the chances we may have, because we shall not know what it is that needs rectifying, or if there is any need at all to rectify anything.</p><p>Then there is another factor, the history of our country, which ought to serve as a warning. It ought to restrain the West and the developing countries from making mistakes on the scale of those our country has made during its historical development. A man may not keep silent, but that doesn&#x27;t mean he hopes to achieve anything. The two propositions are not synonymous. He may not hope to achieve anything at all, but he speaks out all the same because he simply cannot, cannot remain silent.</p><p>In almost every concrete instance of repression we never expect to achieve anything, and almost always we have been sadly lacking in any results whatsoever.</p><p><em>But what are you yourself aiming to achieve? In what sense? Socially?</em>‍</p><p>Yes.</p><p>Well, as an ideal, I tried in my <em>Memorandum</em>, and particularly in the <em>Postscript</em> to it, to delineate an ideal of a kind, but there were a lot of things I ought to have emended myself in the <em>Memorandum</em> because I wrote it a long time ago, in 1971, and it was published [almost] a year and a half later with no changes. For instance, I wrote about the Chinese problem in a tone which I would perhaps have refrained from adopting now. In fact I would have refrained in the sense that I wouldn&#x27;t have written anything, because I am no nearer than I ever was to understanding our relations with China, and when you don&#x27;t understand something it&#x27;s best not to write about it. I wouldn&#x27;t have the slightest desire now, for instance, to accuse China of aggression. But I didn&#x27;t say it there clearly either; perhaps, though, there was an element of exaggeration in my view of the Chinese threat. China in fact represents simply an earlier stage in our own social development; she is more concerned with revolutionary self-assertion both at home and throughout the world than with, for instance, securing prosperity for her people or expanding her territory. They probably don&#x27;t yet regard this problem as a problem. China is very like Russia in the twenties or the early thirties.</p><p><em>But if you think that socialism in the Soviet Union has not displayed its advantages, does that mean you think that in order to remedy the situation here the whole state must be reorganised, or can something be done within the existing system to improve and eliminate its defects?</em>‍</p><p>I really don&#x27;t feel able to answer that question. To reorganise the state completely would be unthinkable, there must always be some continuity, some gradualness, otherwise there would be a repetition of the dreadful destruction that we have already gone through several times, total collapse. So naturally I seek gradual change, I&#x27;m a liberal, a &#x27; gradualist&#x27;, if you like.</p><p><em>Well, what is the first thing that must be done?</em>‍</p><p>What has to be done? Well, I realise that our present system can do nothing, or at least very little, about its own intrinsic qualities. What ought to be done? The ideological monism of our society should be liquidated. It&#x27;s an ideological structure which is essentially anti-democratic and it is a tragedy for the state. Our isolation from the outside world, for example, the absence of the right to leave the country and return to it, is having an extremely pernicious effect on domestic life. In the first instance it is profoundly tragic for all those people who wish to leave for personal and national reasons. But it is also tragic for those who stay in the country, because a country which cannot be freely left or returned to is, for that reason alone, defective, it&#x27;s a closed volume where processes develop in quite different ways from those in an open system.</p><p><em>You know that the right of free exit...</em>‍</p><p>. . . is one of the most important preconditions for return, free return.</p><p><em>And what else?</em>‍</p><p>It is one of the necessary preconditions for our country somehow to develop along more healthy lines. Then there are things of a more economic nature which are also certainly very important. The extremely developed state socialisation in our country has led to a situation in which private enterprise has been closed down in the very spheres in which it is most effective, as it has in large-scale industry and in transport, where state control is perhaps the rational [form of management].</p><p>And as well as this, it has simply placed severe constraints on the individual initiative of citizens, as it has upon their personal freedom. This is having a bad effect on the living standards of the population and merely makes life more drab and dreary for many people than it might otherwise<br/>be. I&#x27;m thinking of private initiative in the fields of consumer goods, services, education, medicine. I am quite certain it would all play a very positive role in loosening the extremely monopolistic structure of the state. There are things relating to the administrative monopoly; the fact that the party&#x27;s monopoly of the administration has reached such proportions here that . . . it must be apparent even to the party bosses that the whole thing is intolerable in principle. It has begun to affect the efficiency of the administration.</p><p>Well, what do we need? We need a great deal of openness and publicity in the work of the administrative machinery. And the single-party system is probably excessively and unnecessarily rigid. Even in the conditions of a socialist economy it is possible to do without the single-party system. As a matter of fact some elements of the multi-party system do exist in some of the people&#x27;s democracies, though admittedly they look very much like half-caricatures.</p><p>We need elections with large numbers of candidates for the organs of state. Generally speaking, a series of measures which would have very little effect individually but which when combined might be able to shake the monolith we have created here, this fossilised structure that oppresses the life of the entire country.</p><p>The press must change its character. It&#x27;s so standardised now that it has lost most of its information value. And when it does reflect any facts this is done in such a way that they are intelligible only to the initiated and give a distorted picture of the realities of life in this country; as for the intellectual life, it just doesn&#x27;t exist, so it&#x27;s not really something that can be distorted, there&#x27;s no variety in intellectual life.</p><p>One thing in particular I must comment on is the role of the intelligentsia in society. The intelligentsia is kept down in a way that is quite unlawful. Materially it is very badly provided for. Badly provided for, even compared with manual labourers. But its absolute living standard is very low, of course, if you compare it with western countries which have reached roughly the same stage of economic development. This oppression of the intelligentsia – it is economically depressed too – means ideological depression as well, creates a sort of general anti-intellectual atmosphere in the country, in which the intellectual professions – teachers, doctors – don&#x27;t enjoy the respect they should. And another expression of this anti-intellectualism is the way the intelligentsia itself is beginning to retreat either into narrow professional specialisation or into a dual intellectual life at work and at home; in the narrow circle of their friends people begin thinking in different ways, and this split mentality leads to hypocrisy and further moral and creative decline. Of course, it&#x27;s the artistic, not the technical intelligentsia that is most distressingly affected by this. They already feel that they have reached a total impasse. And as a result the literature that does come to the surface is terribly grey, conventional, and generally tedious; literature, art, the cinema are beginning to...</p><p><em>Can I put one final question to you? You have been very active indeed [in the human rights movement] over the last few years. Have you never feared for your own health and liberty?</em>‍</p><p>Not very much, I personally have never been afraid for myself, but that&#x27;s partly my nature, and partly because I started out from a very high social position; such fears would have been quite unjustified and irrelevant. What I fear at the moment are the kinds of pressure that don&#x27;t affect me personally but may be exerted on the members of my family and my wife&#x27;s family. That is the most painful thing, because it&#x27;s very real and it&#x27;s already happening, getting closer and closer to us. Things like what happened to Levich¹, his son being picked up; it shows you how they go about these things.</p><p><em>Translated by Hilary Steinberg</em></p><p>¹ Corresponding Member of the Academy of Sciences Veniamin Levich, whose son Evgeny, an astrophysicist, was picked up on the street by the military authorities on 16 May 1973 and called up into the army.</p></div></div><div class="lib-quote-with-img w-clearfix w-condition-invisible"><img src="#" loading="lazy" alt="" class="lib-quote-img w-dyn-bind-empty"/><div class="lib-quote-text w-dyn-bind-empty"></div></div></div></div></div></div></div><div class="share-bts-mobile-slide"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af49eb06588e_bt-fb-hover-out.svg" loading="lazy" id="MobBtnFB" alt="" class="bt-mob-share"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af48e40658a2_bt-tw-hover-out.svg" loading="lazy" id="MobBtnTW" alt="" class="bt-mob-share"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af0c100658d8_bt-vk-hover-out.svg" loading="lazy" id="MobBtnVK" alt="" class="bt-mob-share"/></div></div><div class="lib-post-next wf-section"><div class="en-lib-post-next__post-wrapper"><div class="lib-p-large">Next</div><div class="en-post-number hide">700</div><div class="w-dyn-list"><div role="list" class="en-lib-post-list-hidden w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="thoughts-on-peace-progress-and-intellectual-freedom.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%d1%80%d0%b0%d0%b7%d0%bc%d1%8b%d1%88%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%25D1%2580%25D0%25B0%25D0%25B7%25D0%25BC%25D1%258B%25D1%2588%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D1%258F-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%D1%80%D0%B0%D0%B7%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.jpg 793w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">1</div><div class="lib-p-normal">Writings</div></div><div class="lib-h1">Thoughts on Progress, Peaceful Coexistence and Intellectual Freedom</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="the-world-in-50-years" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af891206637e_%d0%bc%d0%b8%d1%80%20%d1%87%d0%b5%d1%80%d0%b5%d0%b7-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">70</div><div class="lib-p-normal">Writings</div></div><div class="lib-h1">The World in 50 Years</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="autobiography" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af619c066351_1820-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">140</div><div class="lib-p-normal">Writings</div></div><div class="lib-h1">Autobiography</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="the-inevitability-of-perestroika" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af501c0662d8_250-small.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">200</div><div class="lib-p-normal">Writings</div></div><div class="lib-h1">The Inevitability of Perestroika</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="nobel-lecture" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-800.jpeg 800w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-1080.jpeg 1080w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-1600.jpeg 1600w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810.jpg 1873w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">300</div><div class="lib-p-normal">Speeches</div></div><div class="lib-h1">Nobel Lecture</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="statement-of-27-january-1980" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af01e206636a_Gorky2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">445</div><div class="lib-p-normal">Statements</div></div><div class="lib-h1">Statement of January 27, 1980</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="open-letter-to-the-president-of-the-academy-of-sciences" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af50c6066374_%d0%a1%20%d0%b8%20%d0%901.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">520</div><div class="lib-p-normal">Statements</div></div><div class="lib-h1">Open Letter to the President of the Academy of Sciences</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="intervyu-ulle-stenholmu.html" aria-current="page" class="lib-post-next__post w-inline-block w--current"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4a02066382_stenholm.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">700</div><div class="lib-p-normal">Interviews</div></div><div class="lib-h1">Interview with Olle Stenholm</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="selected-biblioraphy" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afefcd0663b8_books.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">800</div><div class="lib-p-normal">Bibliography</div></div><div class="lib-h1">Selected Biblioraphy</div></div></a></div></div></div><div class="lib-post-next__post-container en-post-next-target"><a href="#" class="lib-post-next__post w-inline-block"><img src="https://assets.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">This is some text inside of a div block.</div><div class="lib-p-normal">This is some text inside of a div block.</div></div><div class="lib-h1">This is some text inside of a div block.</div></div><div class="lib-post-next__post-bg-white-mob"></div></a><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="thoughts-on-peace-progress-and-intellectual-freedom.html" class="lib-post-next__post-empty w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%d1%80%d0%b0%d0%b7%d0%bc%d1%8b%d1%88%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f.jpg" loading="lazy" alt="" sizes="(max-width: 479px) 64vw, 26vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%25D1%2580%25D0%25B0%25D0%25B7%25D0%25BC%25D1%258B%25D1%2588%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D1%258F-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%D1%80%D0%B0%D0%B7%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.jpg 793w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 en-post-number hide">1</div><div class="lib-p-normal">Writings</div></div><div class="lib-h1">Thoughts on Progress, Peaceful Coexistence and Intellectual Freedom</div></div></a></div></div></div></div></div><div class="ru-lib-post-next__post-wrapper w-condition-invisible"><div class="lib-p-large">Читать далее</div><div class="ru-post-number hide">700</div><div class="w-dyn-list"><div role="list" class="ru-lib-post-list-hidden w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="vospominaniya-tom-i-chast-pervaya" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af6db6066399_%d0%92%d0%be%d1%81%d0%bf%d0%be%d0%bc%d0%b8%d0%bd%d0%b0%d0%bd%d0%b8%d1%8f3.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1</div><div class="lib-p-normal">Воспоминания</div></div><div class="lib-h1">Воспоминания. Часть первая</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="vospominaniya-tom-i-chast-vtoraya" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af6db6066399_%d0%92%d0%be%d1%81%d0%bf%d0%be%d0%bc%d0%b8%d0%bd%d0%b0%d0%bd%d0%b8%d1%8f3.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2</div><div class="lib-p-normal">Воспоминания</div></div><div class="lib-h1">Воспоминания. Часть вторая</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="vospominaniya-gorkiy-moskva-dalee-vezde" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afd2c106639a_Gorky2.gif" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">10</div><div class="lib-p-normal">Воспоминания</div></div><div class="lib-h1">Горький, Москва, далее везде</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="razmyshleniya-o-progresse-mirnom-sosushchestvovanii-i-intellektualnoy-svobode" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%d1%80%d0%b0%d0%b7%d0%bc%d1%8b%d1%88%d0%bb%d0%b5%d0%bd%d0%b8%d1%8f.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%25D1%2580%25D0%25B0%25D0%25B7%25D0%25BC%25D1%258B%25D1%2588%25D0%25BB%25D0%25B5%25D0%25BD%25D0%25B8%25D1%258F-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af479b065bab_%D1%80%D0%B0%D0%B7%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.jpg 793w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">30</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Размышления о прогрессе, мирном сосуществовании и интеллектуальной свободе</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="memorandum-a-saharova-v-turchina-i-r-medvedeva" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afa71b065ecf_Memorandum.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">40</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Меморандум А. Сахарова, В. Турчина и Р. Медведева</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="pamyatnaya-zapiska" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af148a065ddb_%d0%b7%d0%b0%d0%bf%d0%b8%d1%81%d0%ba%d0%b02.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">50</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Памятная записка</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="o-pisme-aleksandra-solzhenicyna-vozhdyam-sovetskogo-soyuza" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afc3ff0662d9_%d0%9e%20%d0%bf%d0%b8%d1%81%d1%8c%d0%bc%d0%b5%20%d0%b2%d0%be%d0%b6%d0%b4%d1%8f%d0%bc%20copy-4.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">60</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">О письме Александра Солженицына «Вождям Советского Союза»</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="mir-cherez-polveka.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af891206637e_%d0%bc%d0%b8%d1%80%20%d1%87%d0%b5%d1%80%d0%b5%d0%b7-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">70</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Мир через полвека</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="o-strane-i-mire" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0e04065da4_%d0%9e%d1%81%d1%82%d1%80%d0%b0%d0%bd%d0%b5.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">80</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">О стране и мире</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="trevoga-i-nadezhda" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4c5e065ddd_%d1%82%d1%80%d0%b5%d0%b2%d0%be%d0%b3%d0%b01.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">90</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Тревога и надежда</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="yadernaya-energetika-i-svoboda-zapada" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af2426066358_%d0%a1%d0%b0%d1%85_%d0%b4%d0%be%d0%bc%d0%b0.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">100</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Ядерная энергетика и свобода Запада</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="trevozhnoe-vremya" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af1b4c0662da_%d1%82%d1%80%d0%b5%d0%b2%d0%be%d0%b6%d0%bd%d0%be%d0%b5.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">110</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Тревожное время</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="otvetstvennost-uchenyh" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af557106639c_%d0%a1%d0%b0%d1%85%d0%b0%d1%80%d0%be%d0%b2-%d1%81%d0%b1%d0%be%d1%80%d0%bd%d0%b8%d0%ba.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">130</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Ответственность ученых</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="avtobiografiya" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af619c066351_1820-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">140</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Автобиография</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="chto-dolzhny-sdelat-ssha-i-sssr-chtoby-sohranit-mir" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af5bdb066352_1812-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">150</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Что должны сделать США и СССР, чтобы сохранить мир</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="opasnost-termoyadernoy-voyny-otkrytoe-pismo-doktoru-sidneyu-drellu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5affcde0662a4_drell-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">160</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Опасность термоядерной войны. Открытое письмо доктору Сиднею Дреллу</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="neizbezhnost-perestroyki" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af501c0662d8_250-small.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">200</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Неизбежность перестройки</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="s-myslyu-mozhno-borotsya-tolko-myslyu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af664f065e9b_Sakharov1-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">210</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">С мыслью можно бороться только мыслью</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="predvybornaya-programma" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af697e066356_%d0%a1%d0%b0%d1%85%d0%b0%d1%801989-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">220</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Предвыборная программа</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="proekt-konstitucii-soyuza-sovetskih-respublik-evropy-i-azii" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af6565066357_%d0%9a%d0%be%d0%bd%d1%81%d1%82%d0%b8%d1%82%d1%83%d1%86.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">230</div><div class="lib-p-normal">Публицистика</div></div><div class="lib-h1">Проект Конституции Союза Советских Республик Европы и Азии</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="nobelevskaya-lekciya.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-800.jpeg 800w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-1080.jpeg 1080w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810-p-1600.jpeg 1600w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4607065dac_1810.jpg 1873w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">300</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Нобелевская лекция</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="vystupleniya-na-moskovskom-forume" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af701d06635e_1987.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">310</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Выступления на Московском форуме</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="rech-pri-zakrytii-i-sezda-narodnyh-deputatov-sssr.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afe62006635f_%d0%a0%d0%98%d0%901.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">320</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Речь при закрытии I Съезда народных депутатов СССР</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="vystuplenie-na-vstreche-s-kollektivom-uralmashzavoda" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afefa4066373_%d0%b2%d1%8b%d1%81%d1%82%d1%83%d0%bf%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">330</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Выступление на встрече с коллективом Уралмашзавода</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="lionskaya-lekciya" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af1552066369_%d0%91%d0%be%d1%81%d1%82%d0%be%d0%bd.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">340</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Лионская лекция</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="poslednee-vystuplenie" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af8c45066360_258208_600.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">350</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Последнее выступление</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="neproiznesennaya-rech" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af9996066361_%d0%90%d0%94%d0%a1%d0%b0%d1%85%d0%b0%d1%80%d0%be%d0%b21989.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af9996066361_%25D0%2590%25D0%2594%25D0%25A1%25D0%25B0%25D1%2585%25D0%25B0%25D1%2580%25D0%25BE%25D0%25B21989-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af9996066361_%D0%90%D0%94%D0%A1%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B21989.jpg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">360</div><div class="lib-p-normal">Выступления</div></div><div class="lib-h1">Непроизнесенная речь</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="zayavlenie-o-poezdke-v-prinston" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0e92066362_%d0%9f%d1%80%d0%b8%d0%bd%d1%81%d1%82%d0%be%d0%bd.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">400</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Заявление о поездке в Принстон</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="v-zashchitu-presleduemyh-za-rubezhom" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afa3a7066364_%d0%a1%d0%b0%d1%85-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">410</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">В защиту преследуемых за рубежом</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="v-organizacionnyy-komitet-simpoziuma-po-probleme-smertnoy-kazni" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afc696066366_Gessen-Sakharov2.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afc696066366_Gessen-Sakharov2-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afc696066366_Gessen-Sakharov2.jpg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">420</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">В Организационный комитет симпозиума по проблеме смертной казни</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="zayavleniya-o-krazhah-rukopisey" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af1e51066368_Gorky-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">430</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Заявления о кражах рукописей</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="otkrytoe-pismo-ob-afganistane" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afe288066350_sfhfrov-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">435</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Открытое письмо об Афганистане </div></div></a></div><div role="listitem" class="w-dyn-item"><a href="zayavleniya-o-vysylke-v-gorkiy" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af01e206636a_Gorky2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">440</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Заявления о высылке в Горький</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="uchastnikam-paguoshskoy-konferencii" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af02c906636b_f78543224689d80471bb612b67379365.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af02c906636b_f78543224689d80471bb612b67379365-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af02c906636b_f78543224689d80471bb612b67379365.jpeg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">450</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Участникам Пагуошской конференции</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="po-povodu-prisuzhdeniya-premii-imeni-leo-scillarda" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af814a06636c_Leo_Szilard-1024x683.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af814a06636c_Leo_Szilard-1024x683-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af814a06636c_Leo_Szilard-1024x683.jpeg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">460</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">По поводу присуждения премии имени Лео Сцилларда</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="uchastnikam-vstrechi-v-sorbonne" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afa1ea06636d_sorbonne-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">470</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Участникам встречи в Сорбонне</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="kollegam-uchenym" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af2ef006636e_16927616_101.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af2ef006636e_16927616_101-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af2ef006636e_16927616_101.jpeg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">480</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Коллегам-ученым</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="uchastnikam-konferencii-v-stokgolme" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0c0606636f_stockholm72-opening.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0c0606636f_stockholm72-opening-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0c0606636f_stockholm72-opening.jpeg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">490</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Участникам конференции в Стокгольме</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="amerikanskomu-poslu-arturu-hartmanu.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af81f4066370_Hartman.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af81f4066370_Hartman-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af81f4066370_Hartman.jpg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">500</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Американскому послу Артуру Хартману</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="v-prokuraturu-i-sud" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af20ca066371_%d0%a1%d0%b0%d1%85%d0%b0%d1%80%d0%be%d0%b2%20%d0%b2%20%d0%93%d0%be%d1%80%d1%8c%d0%ba%d0%be%d0%bc.jpg" loading="lazy" alt="" sizes="100vw" srcset="https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af20ca066371_%25D0%25A1%25D0%25B0%25D1%2585%25D0%25B0%25D1%2580%25D0%25BE%25D0%25B2%2520%25D0%25B2%2520%25D0%2593%25D0%25BE%25D1%2580%25D1%258C%25D0%25BA%25D0%25BE%25D0%25BC-p-500.jpeg 500w, https://assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af20ca066371_%D0%A1%D0%B0%D1%85%D0%B0%D1%80%D0%BE%D0%B2%20%D0%B2%20%D0%93%D0%BE%D1%80%D1%8C%D0%BA%D0%BE%D0%BC.jpg 600w" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">510</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">В прокуратуру и суд</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="prezidentu-an-sssr-a-p-aleksandrovu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af50c6066374_%d0%a1%20%d0%b8%20%d0%901.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">520</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Президенту АН СССР А. П. Александрову</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="zhaloba-v-poryadke-nadzora" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af5dd4066372_%d0%b6%d0%b0%d0%bb%d0%be%d0%b1%d0%b02jpg.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">530</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Жалоба в порядке надзора</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="pismo-m-s-gorbachevu-ob-osvobozhdenii-uznikov-sovesti.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afafc8066354_%d0%bf%d0%b8%d1%81%d1%8c%d0%bc%d0%be%d0%93%d0%be%d1%80%d0%b1%d0%b0%d1%87%d0%b5%d0%b2%d1%83.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">540</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Письмо М.С. Горбачёву об освобождении узников совести</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="otkrytoe-pismo-o-krymskih-tatarah-i-nagornom-karabahe" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af6a51066355_Sakharov1988.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">550</div><div class="lib-p-normal">Заявления</div></div><div class="lib-h1">Открытое письмо о крымских татарах и Нагорном Карабахе</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="perepiska-s-prezidentom-karterom" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af15fb066381_regnum_picture_15719597961016904_normal.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">600</div><div class="lib-p-normal">Письма</div></div><div class="lib-h1">Переписка с президентом Картером</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="perepiska-s-genrihom-byollem.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af16df066380_boll-2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">610</div><div class="lib-p-normal">Письма</div></div><div class="lib-h1">Переписка с Генрихом Бёллем</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="doktoru-sidneyu-drellu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af8ed30663ba_friendships_of_sid_drell.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">612</div><div class="lib-p-normal">Письма</div></div><div class="lib-h1">Доктору Сиднею Дреллу</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="iz-pisma-seme-v-soedinennye-shtaty" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4d09066387_%d0%9a%d0%be%d0%bf%d0%b8%d1%8f%201827-2_1.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">620</div><div class="lib-p-normal">Письма</div></div><div class="lib-h1">Из письма семье в Соединенные Штаты</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="generalnomu-sekretaryu-ck-kpss-m-s-gorbachyovu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0545066353_%d0%a1%d0%b0%d1%85%d0%b0%d1%80%d0%be%d0%b2-%d1%81%d1%81%d1%8b%d0%bb%d0%ba%d0%b01.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">630</div><div class="lib-p-normal">Письма</div></div><div class="lib-h1">Генеральному секретарю ЦК КПСС М.С. Горбачёву</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="intervyu-ulle-stenholmu-2" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4a02066382_stenholm.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">700</div><div class="lib-p-normal">Интервью</div></div><div class="lib-h1">Интервью Улле Стенхольму</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="stepen-svobody-intervyu-s-grigoriem-citrinyakom.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af99cf066383_%d1%86%d0%b8%d1%82%d1%80%20copy.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">710</div><div class="lib-p-normal">Интервью</div></div><div class="lib-h1">Интервью Григорию Цитриняку: Степень свободы</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="dialog-s-alesem-adamovichem-zhit-na-zemle-i-zhit-dolgo" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af91bb066384_Adam.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">720</div><div class="lib-p-normal">Интервью</div></div><div class="lib-h1">Диалог с Алесем Адамовичем: Жить на Земле, и жить долго</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="intervyu-s-yuriem-rostom-sezd-ne-mozhet-sdelat-vse-srazu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af2cf8066386_%d1%81%d0%a0%d0%be%d1%81%d1%82%d0%be%d0%bc.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">730</div><div class="lib-p-normal">Интервью</div></div><div class="lib-h1">Интервью с Юрием Ростом: Съезд не может сделать все сразу</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="gnev-naroda.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af29aa0663b7_CHukovskaya-L.K.-1.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">800</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Гнев народа</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="viktor-nekrasov-o-saharove" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af380706638a_Andrey-Saxarov-VPN-Moskva-1973.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">805</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Странный человек</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="otkrytoe-pismo-akademiku-kapice-p-l" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afaf3a0663bc_marchenko.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">820</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Открытое письмо академику Капице П.Л.</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="v-pereplete-sobytiy" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af62230663b9_podyapolskaya_mariya.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">830</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">В переплете событий</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="bezzakonie-zametki-yurista" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afca4b0663bb_%d0%9a%d0%b0%d0%bb%d0%bb%d0%b8%d1%81%d1%82%d1%80%d0%b0%d1%82%d0%be%d0%b2%d0%b0.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">840</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Беззаконие (Заметки юриста)</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="andrey-dmitrievich-saharov-2" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af32b70663bd_007b329ace79b64e3ef32ae20e9d23e6.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">860</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Андрей Дмитриевич Сахаров</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="ot-razmyshleniy-o-progresse-do-dvizheniya-za-prava-cheloveka" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5affaf90663be_BOGORAZ_Larisa_Iosifovna3.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">870</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">От «Размышлений о прогрессе...» до «Движения за права человека...»</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="pismo-sostavitelyam-yubileynogo-sbornika" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af82580663bf_%d0%b6%d0%b5%d0%bb%d1%83%d0%b4%d0%ba%d0%be%d0%b2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">880</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Письмо составителям юбилейного сборника</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="a-d-saharov-i-sudby-biologicheskoy-nauki-v-sssr" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afda550663c1_Valery-soyfer-image.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">890</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">А.Д. Сахаров и судьбы биологической науки в СССР</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="istoki-chuda" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0b260663c2_4029721cb484496a8dc479a819b1781f.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">900</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Истоки чуда</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="o-saharove" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afcffe0663c3_08uOK37_w7U.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">910</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">О Сахарове</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="sovershenno-prekrasnyy-chelovek-razmyshleniya.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af65730663c4_unnamed.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">920</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Совершенно прекрасный человек (Размышления)</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="chto-vy-dumaete-o-saharove-rezultaty-vyborochnogo-obsledovaniya.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af17db0663c8_1Moscow-1980s-interesting.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">930</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Что вы думаете о Сахарове? (Результаты выборочного обследования)</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="chelovek-dlya-lyudey" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af0c910663ca_people68_lert.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">940</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Человек для людей</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="nadezhdy-1975-goda" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af3d3b066389_%d1%82%d0%b0%d1%82%d0%af.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">952</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Надежды 1975 года</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="my-vse-sovremenniki-andreya-saharova" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afbcaf066390_%d0%91%d0%be%d0%bd%d0%bd%d0%b5%d1%801986.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">960</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Мы все — современники Андрея Сахарова </div></div></a></div><div role="listitem" class="w-dyn-item"><a href="tass-i-izvestiya-o-saharovyh" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af821c066392_%d0%9f%d1%80%d0%b0%d0%b2%d0%b4%d0%b01984.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">970</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">ТАСС и «Известия» о Сахаровых</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="gorkovskie-lenty" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af846f066394_%d0%93%d0%be%d1%80%d1%8c%d0%ba%d0%b8%d0%b8%cc%86.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">980</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Горьковские ленты</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="dusha-sbylas" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af57d40663c5_Portrait-%d0%be%d1%81%d0%b2%d0%b5%d1%82%d0%bb%d0%b5%d0%bd%d0%bd%d1%8b%d0%b8%cc%86-1668x1112-640x338.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">982</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Душа сбылась </div></div></a></div><div role="listitem" class="w-dyn-item"><a href="pechalno-no-tverdo" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af58480663c6_uzn_15913462808.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">983</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Печально, но твердо</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="bonner-postskriptum" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af168406639b_PS_small2.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">990</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Постскриптум. Книга о горьковской ссылке</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="chetyre-daty-vospominaniya-o-ego-vospominaniyah" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afbd91066395_60d748c0087c21a9161b0fc2_89-3.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1000</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Четыре даты. Воспоминания о его «Воспоминаниях»</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="golosa-minuvshego" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af1428066391_%d0%9e%d0%b3%d0%be%d0%bd%d0%b5%d0%ba92.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1010</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Голоса минувшего</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="iz-vospominaniy" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afdb7f066396_%d0%91%d0%be%d0%bd%d0%bd%d1%8d%d1%80%201990.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1020</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Из воспоминаний</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="volnomyslie-materialy-kruglogo-stola-posvyashchennogo-a-d-saharovu" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afb37d0663c0_2.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1022</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Вольномыслие. Материалы «круглого стола», посвященного А.Д. Сахарову</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="zvonit-kolokol-god-bez-andreya-saharova" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afbe2e0663b4_%d0%91%d0%be%d0%bd%d0%bd%d1%8d%d1%801991.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1030</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Звонит колокол. Год без Андрея Сахарова</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="progulki-s-pushkinym" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af4e9a066393_Levin-ml.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1040</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Прогулки с Пушкиным</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="vse-obdumano-zagodya" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5affb460663d2_Alexandr_Dykhne.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1100</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Все обдумано загодя</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="drug-blizkiy-drug-dalekiy" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afb92a0663d3_Akiva_Yaglom.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1101</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Друг близкий, друг далекий</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="k-portretu-andreya-saharova" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af18a10663d4_migdal600-450_1457624195.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1102</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">К портрету Андрея Сахарова</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="andrey-saharov-kak-aktualnyy-politicheskiy-filosof-xxi-veka.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af015c0663ce_18e495e3ab8d40d7bb159cf6959cf7a4.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1800</div><div class="lib-p-normal">О Сахарове</div></div><div class="lib-h1">Андрей Сахаров как актуальный политический философ XXI века</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="vseobshchaya-deklaraciya-prav-cheloveka" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afd9ea065d9f_1205px-UN_emblem_blue.svg.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2000</div><div class="lib-p-normal">Документы</div></div><div class="lib-h1">Всеобщая декларация прав человека</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="manifest-rassela-eynshteyna" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af3ed7065dca_einstein-russel-600x601.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2010</div><div class="lib-p-normal">Документы</div></div><div class="lib-h1">Манифест Рассела — Эйнштейна</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="rabochaya-zapis-zasedaniya-politbyuro-ck-kpss.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af62db06638e_1059981122_779_182_3000_1432_600x0_80_0_0_1e8986e9079a1e3cdee327102657cfd5.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2020</div><div class="lib-p-normal">Документы</div></div><div class="lib-h1">Рабочая запись заседания политбюро ЦК КПСС</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="ukazy-prezidiuma-verhovnogo-soveta-sssr" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af343306638f_%d0%93%d0%90%d0%a0%d0%a4.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2030</div><div class="lib-p-normal">Документы</div></div><div class="lib-h1">Указы Президиума Верховного Совета СССР</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="andrey-dmitrievich-saharov" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af8fd70663b3_Screenshot%202021-09-29%20at%2015.00.15.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2040</div><div class="lib-p-normal">Документы</div></div><div class="lib-h1">Андрей Дмитриевич Сахаров</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="audiozapisi-e-g-bonner" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af2ba30663cb_bonner.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2500</div><div class="lib-p-normal">Аудио</div></div><div class="lib-h1">Аудиозаписи Е.Г. Боннэр</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="audio-zapisi" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afe05a06634e_6134857.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2510</div><div class="lib-p-normal">Аудио</div></div><div class="lib-h1">Аудиозаписи А.Д. Сахарова</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="saharov-podkast-mbh-media.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af545c0663cd_saharov-sajt.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2600</div><div class="lib-p-normal">Аудио</div></div><div class="lib-h1">Сахаров. Подкаст МБХ медиа</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="saharov-kinohronika.html" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afd0c2066359_%d0%b2%d0%b8%d0%b4%d0%b5%d0%be.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2800</div><div class="lib-p-normal">Видео</div></div><div class="lib-h1">Кинохроника Гостелерадиофонда</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="diletanty-100-letie-saharova" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af228f0663cc_diletanstkie-5.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2810</div><div class="lib-p-normal">Видео</div></div><div class="lib-h1">Дилетанты. 100-летие Сахарова</div></div></a></div><div role="listitem" class="w-dyn-item"><a href="razgovory-o-saharove-v-ramkah-yubileynoy-konferencii" class="lib-post-next__post w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5afa7ce0663d1_sakh.jpg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">2820</div><div class="lib-p-normal">Видео</div></div><div class="lib-h1">Разговоры о Сахарове в рамках юбилейной конференции</div></div></a></div></div></div><div class="lib-post-next__post-container ru-post-next-target"><a href="#" class="lib-post-next__post w-inline-block"><img src="https://assets.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">This is some text inside of a div block.</div><div class="lib-p-normal">This is some text inside of a div block.</div></div><div class="lib-h1">This is some text inside of a div block.</div></div><div class="lib-post-next__post-bg-white-mob"></div></a><div class="w-dyn-list"><div role="list" class="w-dyn-items"><div role="listitem" class="w-dyn-item"><a href="vospominaniya-tom-i-chast-pervaya" class="lib-post-next__post-empty w-inline-block"><img src="../../assets.website-files.com/617936a2cad5af0521065402/617936a2cad5af6db6066399_%d0%92%d0%be%d1%81%d0%bf%d0%be%d0%bc%d0%b8%d0%bd%d0%b0%d0%bd%d0%b8%d1%8f3.png" loading="lazy" alt="" class="lib-post-next__img"/><div class="lib-post-next__post-text"><div class="lib-post-next__post-numb"><div class="lib-p-normal light-gray margin-right-1 ru-post-number hide">1</div><div class="lib-p-normal">Воспоминания</div></div><div class="lib-h1">Воспоминания. Часть первая</div></div></a></div></div></div></div></div></div><div class="nav-menu-mob__bt-s"><div class="nav-menu-bt-mob-1"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af429d0658c2_ic-mob-post-menu-1.svg" loading="lazy" alt="" class="ic-post-nav-1-open"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af62a60658b3_ic-mob-post-menu-3.svg" loading="lazy" alt="" class="ic-post-nav-1-close"/></div><div class="nav-menu-bt-mob-2"><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af60910658d6_ic-mob-post-menu-2.svg" loading="lazy" alt="" class="ic-post-nav-2-open"/><img src="https://assets.website-files.com/617936a2cad5af105e065401/617936a2cad5af62a60658b3_ic-mob-post-menu-3.svg" loading="lazy" alt="" class="ic-post-nav-2-close"/></div></div></div><script src="../../d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8e0fc.js?site=617936a2cad5af105e065401" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="../../assets.website-files.com/617936a2cad5af105e065401/js/webflow.d6dda531a.js" type="text/javascript"></script><!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]--><audio loop class='audioEl'>
+  <source src="https://static.sakharov.space/sound.aac" type="audio/aac">
+  <source src="https://static.sakharov.space/sound.mp3" type="audio/mpeg">
+</audio>
+<script src="../../unpkg.com/gsap%403.11.3/dist/gsap.min.js"></script>
+<script src="../../cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollToPlugin.min.js"></script>
+<script>
+  gsap.registerPlugin(ScrollToPlugin)
+</script>
+
+<script src="../../cdn.jsdelivr.net/npm/resize-sensor%400.0.6/ResizeSensor.min.js"></script>
+<script src="../../cdn.jsdelivr.net/npm/locomotive-scroll%404.0.6/dist/locomotive-scroll.min.js"></script>
+<script src="https://unpkg.com/butter-slider"></script>
+
+<script>
+  //Музыка
+(()=>{
+    const audioEl = document.querySelector('.audioEl');
+    const btnSoundContainers = document.querySelectorAll('.bt-sound');
+    const entryBtn = document.querySelector('.js-entry-btn');
+    const btnsOff = [...document.querySelectorAll('.bt-sound-off')]
+    const btnsOn = [...document.querySelectorAll('.bt-sound-on')]
+    
+    if(disabledAudio()){
+      audioEl.remove();
+      btnSoundContainers.forEach(c=>{
+        c.style.display = 'none'
+        c.style.visibility = 'hidden'
+        c.style.position='absolute'
+        c.style.width='0'
+        c.style.height='0'
+        c.style.overflow = 'hidden'
+      })
+      return
+    }
+    let killTabBlurAnimation;
+    let timeBeforeLeaveTab = 0;
+    
+    setInitialState()
+    addTabVisibilityListener();
+    handleVisibilityChange();
+    addBtnsListeners();
+    addUnloadListener();
+    addLeaveTabListener();
+      
+    
+    
+    function setInitialState(){
+      const isPaused = !!localStorage.getItem('audioPaused');
+      if(isPaused){
+        pause(true)
+      } else {
+        audioEl.currentTime = sessionStorage.getItem('audioTime') || 0; 
+        play(2)
+      }
+    }
+    function addTabVisibilityListener(){
+      let visibilityChange = 'visibilitychange';
+      if (typeof document.msHidden !== "undefined") {
+        visibilityChange = "msvisibilitychange";
+      } else if (typeof document.webkitHidden !== "undefined") {
+        visibilityChange = "webkitvisibilitychange";
+      }
+      document.addEventListener(visibilityChange, handleVisibilityChange);
+    }
+    function handleVisibilityChange() {
+      if (windowIsHidden()){
+        onTabBlur()
+      } else{
+        onTabFocus()
+      }  
+    }  
+    function onTabBlur(){
+      const isPlayed = !localStorage.getItem('audioPaused')
+      if(isPlayed){
+        killTabBlurAnimation = animateByInterval((progress)=>{
+          audioEl.volume = 1 - progress;
+          timeBeforeLeaveTab = audioEl.currentTime;
+        }, ()=>{}, 0.5)
+      }
+    }
+    function onTabFocus(){
+      if(killTabBlurAnimation){
+        killTabBlurAnimation()
+      }
+      const isPaused = !!localStorage.getItem('audioPaused')
+      audioEl.currentTime = timeBeforeLeaveTab
+      if(isPaused){  
+        pause(true) 
+      } else{
+        play()
+      }
+    }
+    function addBtnsListeners(){
+      btnsOn.forEach((btn)=>{
+        btn.addEventListener('click', ()=>pause())
+      })
+      btnsOff.forEach((btn)=>{
+        btn.addEventListener('click', ()=>play())
+      })
+      if(entryBtn){
+        entryBtn.addEventListener('click', play);
+      }
+    }
+    function addUnloadListener(){
+      window.addEventListener('beforeunload', (event) => {
+        sessionStorage.setItem('audioTime', audioEl.currentTime);
+      })
+    }
+    function addLeaveTabListener(){
+      window.addEventListener('popstate', (event)=>{
+        const isPaused = !!localStorage.getItem('audioPaused')
+        if(!isPaused && audioEl.volume != 1){
+          gsap.killTweensOf(audioEl);
+          gsap.to(audioEl, {volume: 1, duration: 1.5})
+        }
+      })
+    }
+    function pause(immediately, saveGlobal=true){
+      if(saveGlobal){
+        localStorage.setItem('audioPaused', 'true')
+      }
+      gsap.killTweensOf(audioEl);
+      btnsOn.forEach(btn=>btn.style.display='none')
+      btnsOff.forEach(btn=>btn.style.display='block')
+      if(immediately){
+         audioEl.volume = 0;
+      } else{
+        gsap.to(audioEl, {volume: 0, duration: 1.5, onComplete:()=>audioEl.pause()})
+      }
+      
+    }
+    function play(appearDuration=1.5, saveGlobal=true){
+      if(saveGlobal){
+        localStorage.removeItem('audioPaused')
+      }
+      gsap.killTweensOf(audioEl);
+      btnsOn.forEach(btn=>btn.style.display='block')
+      btnsOff.forEach(btn=>btn.style.display='none')
+      audioEl.volume = 0;
+      gsap.to(audioEl, {volume: 1, duration: appearDuration, ease: 'none'})
+      audioEl.play().catch(err=>{
+        console.log('error during try to play: ', err)
+        pause();
+      });
+    }
+    function setVolume(volume){
+      audioEl.volume = volume;
+    }
+    function windowIsHidden(){
+      let hiddenProp = 'hidden'
+      if (typeof document.msHidden !== "undefined") {
+        hiddenProp = "msHidden";
+      } else if (typeof document.webkitHidden !== "undefined") {
+        hiddenProp = "webkitHidden";
+      }
+      return document[hiddenProp]
+    }
+    function animateByInterval(onUpdate=()=>{}, onComplete=()=>{}, duration=1){
+      let start = Date.now(); // remember start time
+    
+      let timer = setInterval(function() {
+        // how much time passed from the start?
+        let timePassed = Date.now() - start;
+    
+        if (timePassed >= duration * 1000) {
+          clearInterval(timer); // finish the animation after 2 seconds
+          onUpdate(1)
+          onComplete()
+          return;
+        }
+        const progress = timePassed / (duration * 1000);
+        onUpdate(progress);
+      }, 20);
+      return ()=>{
+        clearInterval(timer)
+      }
+    }   
+    function disabledAudio(){
+      const mutedPages = ['/ru/library','/en/library', '/bio','/stories','/lib']
+      const pathname = window.location.pathname.replace(/(.*)\/$/, '$1');
+      return mutedPages.some(p=>pathname.startsWith(p));
+    }
+      
+    window.soundController = {
+      play,
+      pause,
+      setVolume
+    }
+})();
+
+</script>
+
+<script>
+  // Переключение языка по клику 
+  // обрабатывает клики и редиректит на соответствующие
+  // так же добавляет для кнопок артрибут disabled='disabled' если языки
+  // совпадает(можно прописать стили)
+  (()=>{
+    const pathname = getNormalizedPathname();
+    const langBtns = [...document.querySelectorAll('.js-switch-lang')];
+    const currentLang = getCurrentLang()
+    langBtns.forEach(btn=>{
+      const btnLang = btn.dataset.lang;
+      if(btnLang === currentLang){
+        btn.setAttribute('disabled', 'disabled')
+        btn.disabled = true;
+      }
+      btn.addEventListener('click', (e)=>{
+        e.preventDefault();
+        if(btn.disabled) return;
+        const nextLangLocation = getSwitchedLangPath(currentLang, btnLang);
+        if(nextLangLocation){   
+          setCookie('selected-lang', btnLang, {'max-age': 365 * 24 * 60 * 60})
+          window.location.href = nextLangLocation;
+        }
+      })
+    })
+    
+    function getNormalizedPathname(){
+      const {pathname} = window.location;
+      return pathname.endsWith('../index.html') ? pathname : pathname+'/';
+    }
+    
+    function getSwitchedLangPath(currentLang, requestedLang){
+      const urlRedirectRule = getUrlRedirectRule(currentLang, requestedLang);
+      
+      if(!urlRedirectRule) return;
+      
+      const [currentLangPart, requestedLangPart] = getReplaceParts(urlRedirectRule, currentLang, requestedLang);
+  
+      const urlReplaceRegexp = new RegExp(`^${currentLangPart}`);
+      
+      const pathname = getNormalizedPathname();
+  
+      return pathname.replace(urlReplaceRegexp, requestedLangPart)
+    }
+    
+    function getUrlRedirectRule(currentLang, requestedLang){
+      const pathname = getNormalizedPathname();
+      const urlRedirectRules = [
+        {ru: '/$', en: '/en/$'},
+        {ru: '/ru/', en: '/en/'},
+        {ru: '/ru-lib/', en: '/en-lib/'},
+        {ru: '/ru-bio/', en: '/en-bio/'},
+        {ru: '/ru-stories/', en: '/en-stories/'},
+      ]
+      const urlRedirectRule = urlRedirectRules.find(rule=>{
+        const urlLangPart = rule[currentLang];
+        if(urlLangPart.endsWith('$')){
+          return pathname === urlLangPart.slice(0,-1);
+        }
+        return pathname.startsWith(urlLangPart);
+      })
+      return urlRedirectRule;
+    }
+     
+    function getReplaceParts(urlRedirectRule, currentLang, requestedLang){
+      const currentLangPart = urlRedirectRule[currentLang].replace('$', '');
+      const requestedLangPart = urlRedirectRule[requestedLang].replace('$', '');
+      return [currentLangPart, requestedLangPart];
+    }
+    
+    function getCurrentLang(){
+      const pathname = getNormalizedPathname();
+      const ruUrlDetectParts = ['/ru/', '../ru-lib/index.html', '../ru-bio/index.html', '/ru-stories/'];
+      const urlContainRuPart = ruUrlDetectParts.some(part=>pathname.startsWith(part));
+      return urlContainRuPart || pathname === '/' ? 'ru' : 'en';
+    }
+    
+    function getCookie(name) {
+      let matches = document.cookie.match(new RegExp(
+        "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
+      ));
+      return matches ? decodeURIComponent(matches[1]) : undefined;
+    }
+  
+    function setCookie(name, value, options = {}) {
+      options = {
+        path: '/',
+        ...options
+      };
+  
+      if (options.expires instanceof Date) {
+        options.expires = options.expires.toUTCString();
+      }
+  
+      let updatedCookie = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+  
+      for (let optionKey in options) {
+        updatedCookie += "; " + optionKey;
+        let optionValue = options[optionKey];
+        if (optionValue !== true) {
+          updatedCookie += "=" + optionValue;
+        }
+      }
+  
+      document.cookie = updatedCookie;
+    }
+  
+    function deleteCookie(name) {
+      setCookie(name, "", {
+        'max-age': -1
+      })
+    }
+  })()
+</script>
+
+<script>
+  // Анимация открытия/закрытия меню RU
+  (()=>{
+    if(window.screen.width <= 479) {
+      return
+    }
+    // Открытие
+    function moveBgImg() {
+      setTimeout(function () {
+        bgImgContainer1.style.backgroundPosition="0% 70%"; 
+        bgImgContainer2.style.backgroundPosition="0% 70%"; 
+        bgImgContainer3.style.backgroundPosition="0% 70%"; 
+      }, 500)
+    };
+    bgImgButton.addEventListener("click", moveBgImg);
+     // Закрытие
+    function moveBgImgReturn() {
+      setTimeout(function () {
+        bgImgContainer1.style.backgroundPosition="0% 0%"; 
+        bgImgContainer2.style.backgroundPosition="0% 0%"; 
+        bgImgContainer3.style.backgroundPosition="0% 0%"; 
+      }, 0)
+    };
+    bgImgButtonReturn.addEventListener("click", moveBgImgReturn)
+  })()
+</script>
+
+<script>
+  // Анимация открытия/закрытия меню EN
+  (()=>{
+    if(window.screen.width <= 479) {
+      return
+    }
+    // Открытие
+    function moveBgImgEn() {
+      setTimeout(function () {
+        bgImgContainer1En.style.backgroundPosition="0% 70%"; 
+        bgImgContainer2En.style.backgroundPosition="0% 70%"; 
+        bgImgContainer3En.style.backgroundPosition="0% 70%"; 
+      }, 500)
+    };
+    bgImgButtonEn.addEventListener("click", moveBgImgEn);
+     // Закрытие
+    function moveBgImgReturnEn() {
+      setTimeout(function () {
+        bgImgContainer1En.style.backgroundPosition="0% 0%"; 
+        bgImgContainer2En.style.backgroundPosition="0% 0%"; 
+        bgImgContainer3En.style.backgroundPosition="0% 0%"; 
+      }, 0)
+    };
+    bgImgButtonReturnEn.addEventListener("click", moveBgImgReturnEn)
+  })()
+</script>
+
+<script>
+// Запуск слайдера
+(()=>{  
+    try{
+      butterSlider.autoInit()
+    } catch(err){
+      console.log(err)
+    }
+})()
+</script>
+
+<script>
+// Меняем подгрузку картинок  
+(()=>{
+    window.addEventListener('load', ()=>{
+        const imagesWithLazyLoad = [...document.querySelectorAll("[loading='auto'], [loading='lazy']")]
+        imagesWithLazyLoad.forEach(el=>{
+          el.setAttribute('loading', 'eager')
+        })
+    })
+})()
+</script>
+
+<script>
+// Плавный скролл
+(()=>{  
+    const mediaQuery = window.matchMedia('(min-width: 480px)')
+    if(mediaQuery.matches && !document.body.dataset.disableSmoothScroll && !onlyNativeScroll()){
+      initLocomotiveScroll();
+    }
+    mediaQuery.addListener(()=>window.location.reload());
+    function initLocomotiveScroll(){  
+      const scrollWrapper = document.querySelector('.scroll-wrapper');
+      const scrollView = document.querySelector('.scroll-view');
+      console.log('init smooth scroll')
+      window.addEventListener('scroll', (e)=>{
+        console.log('scroll wrapper scroll', window.scrollY)
+      })
+      const scroll = new LocomotiveScroll({
+        el: scrollWrapper,
+        smooth: true,
+        touchMultiplier: 6.4,
+        tablet: {
+            smooth: true,
+        },    
+        smartphone: {
+            smooth: true,
+        },
+        // scrollFromAnywhere:true
+      });
+    window.locomotiveScroll = scroll
+      if(is_touch_enabled()){    
+        scroll.on('scroll', (args) => window.scrollTo(0,args.scroll.y));
+        scrollView.classList.add('-touchable');
+      } else{
+        console.log('touch event not found')
+      }
+    
+    addResizeHandler()
+    addLocomotiveGSAPScrollAnimations()
+    addScrollTriggerConnect()
+
+     
+    function addLocomotiveGSAPScrollAnimations(){
+      const customAnimations = {
+        'scale': el => TweenMax.to(el, .3, {
+          scale: 1.5
+        })
+      }
+      const activeAnimations = {};
+      const animationsNames = Object.keys(customAnimations);
+      const elementsWithId = document.querySelectorAll('[data-scroll-id]');
+      console.log({elementsWithId})
+      const createAnimationForId = (element, animationName) => {
+        const tween = customAnimations[animationName](element);
+        tween.pause();
+        if (!activeAnimations[element]) {
+          activeAnimations[element] = {};
+        }
+        activeAnimations[element][animationName] = tween;
+      }
+      elementsWithId.forEach(element => {
+        const animationsIds = element.dataset.scrollId
+          .split(',')
+          .map(e => e.trim())
+          .filter(id => animationsNames.includes(id));
+        animationsIds.forEach(id => createAnimationForId(element, id));
+      });
+    
+      scroll.on('scroll', (args) => {
+        animationsNames.forEach(animationName => {
+          if (typeof args.currentElements[animationName] === 'object') {
+            const {
+              el,
+              progress
+            } = args.currentElements[animationName];
+            const elementAnimations = activeAnimations[el]
+            const tween = elementAnimations ? elementAnimations[animationName] : false;
+            if (tween) {
+              tween.totalProgress(progress);
+            }
+          }
+        })
+      })
+    }
+
+    function addScrollTriggerConnect(){
+      if(!window['gsap'] || !window['ScrollTrigger']){
+        return;
+      }
+
+      gsap.registerPlugin(ScrollTrigger);
+
+      scroll.on("scroll", () => {
+        ScrollTrigger.update()
+      });
+
+
+      ScrollTrigger.scrollerProxy('.scroll-wrapper', {
+        scrollTop(value) {
+          return arguments.length ? scroll.scrollTo(value, 0, 0) : scroll.scroll.instance.scroll.y;
+        },
+        getBoundingClientRect() {
+          return {top: 0, left: 0, width: window.innerWidth, height: window.innerHeight};
+        },
+        pinType: 'transform'
+      });
+      
+      ScrollTrigger.addEventListener("refresh", () => scroll.update());
+      ScrollTrigger.refresh();
+    }
+
+    function addResizeHandler(){
+      new ResizeSensor(scrollWrapper, onResizeContent);
+      setTimeout(()=>onResizeContent,300)
+      window.addEventListener('load', onResizeContent);
+    }
+    
+    function onResizeContent(){
+      scroll.update();
+      if(is_touch_enabled()){    
+        document.body.style.height = scroll.el.offsetHeight + 'px';
+      }
+    }
+
+      function is_touch_enabled() { 
+            return ( 'ontouchstart' in window ) ||  
+                   ( navigator.maxTouchPoints > 0 ) || 
+                   ( navigator.msMaxTouchPoints > 0 ); 
+        } 
+    }
+  function onlyNativeScroll(){
+      const pages = ['/ru/library','/en/library', '/bio','/stories','/lib','/search']
+      const pathname = window.location.pathname.replace(/(.*)\/$/, '$1');
+      return pages.some(p=>pathname.startsWith(p));
+  }
+})()
+</script>
+
+<script>
+// Переход на другую страницу
+(()=>{
+    const target = document.querySelector('#linkPage');
+    if(!target) return;
+    const progress = {val: 0}
+    const tl = gsap.to(progress, {
+      val: 1,
+      duration: 1.5,
+      paused: true,
+      onUpdate: ()=>{
+        if(window.soundController){
+          window.soundController.setVolume(1 - progress.val)
+        }
+      },
+      onComplete: () => {
+        location.href = target.dataset.href;
+        /*setTimeout(()=>{
+          if(window.locomotiveScroll){
+            window.locomotiveScroll.scrollTo(0)
+          } else{
+            window.scrollTo(0, 0)
+          }
+        }, 100)*/
+      }
+    });
+    const callback = function(entries, observer) {
+      entries.forEach(entry => {
+          if (entry.intersectionRatio > 0) {
+            tl.play()
+          } else {
+            tl.reverse();
+          }
+        });
+    };
+    const observer = new IntersectionObserver(callback);
+    observer.observe(target);
+})()
+</script>
+
+<script>
+// Останавливаем видео после выхода из поп-апа
+(()=>{
+window.activateModals = activateModals;
+
+function activateModals(modals){
+  const onReady = ()=>createModalsEls(modals)
+  loadScript(onReady)
+}
+
+function loadScript(onReady){
+  const tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  document.body.appendChild(tag)
+  window.onYouTubePlayerAPIReady = onReady
+}
+
+function createModalsEls(modals){
+  modals.forEach(modal=>createVideoModal(modal.placeholder, modal.videoEl))
+}
+
+function createVideoModal(playBtnSelector, videoElSelector){
+    const playBtn = document.querySelector(playBtnSelector)
+    const videoEl = document.querySelector(videoElSelector)
+    if(!videoEl.src.includes('enablejsapi=1')){
+      const conectSymbol = videoEl.src.includes('?') ? '&amp;' : '?';
+      videoEl.src += `${conectSymbol}enablejsapi=1`
+    }
+    const player = new YT.Player(videoEl);
+    function open(){
+      player.stopVideo()
+      player.playVideo()
+      setTimeout(createCloseListener)
+    }
+    function close(){
+        player.stopVideo()
+    }
+    function createCloseListener(){
+        $(document).one('click', (e) => {
+          if (!$(e.target).closest(videoEl).length) close()
+        });
+    }
+    
+    playBtn.addEventListener('click', open)
+}
+
+loadScript();
+})()
+</script>
+<script>
+// открываем соц сети на мобилке и десктопе
+  BtnFB.onclick = function() {
+    window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.sakharov.space/lib/intervyu-ulle-stenholmu');
+  };
+  MobBtnFB.onclick = function() {
+    window.open('https://www.facebook.com/sharer/sharer.php?u=https://www.sakharov.space/lib/intervyu-ulle-stenholmu');
+  };
+  BtnTW.onclick = function() {
+    window.open('https://twitter.com/intent/tweet?url=https://www.sakharov.space/lib/intervyu-ulle-stenholmu&amp;text=Interview%20with%20Olle%20Stenholm');
+  };
+  MobBtnTW.onclick = function() {
+    window.open('https://twitter.com/intent/tweet?url=https://www.sakharov.space/lib/intervyu-ulle-stenholmu&amp;text=Interview%20with%20Olle%20Stenholm');
+  };
+  BtnVK.onclick = function() {
+    window.open('https://vk.com/share.php?url=https://www.sakharov.space/lib/intervyu-ulle-stenholmu');
+  };
+  MobBtnVK.onclick = function() {
+    window.open('https://twitter.com/intent/tweet?url=https://www.sakharov.space/lib/intervyu-ulle-stenholmu');
+  };
+</script>
+
+<script>
+(()=>{
+// генерация и линковка списка в библиотеке(шапка и поп-ап)
+function generateNavigation(navContainerSelector, navItemTemplateSelector){
+  const container = document.querySelector('.js-head-container')
+  const headers = [...container.querySelectorAll('h1, h2, h3, h4, h5, h6')]
+
+  const navContainer = document.querySelector(navContainerSelector);
+  const navTemplateItem = document.querySelector(navItemTemplateSelector)
+
+  headers.forEach((header,index)=>{
+    const cloneNavItem = navTemplateItem.cloneNode(true);
+    const navItemTextEl = cloneNavItem.querySelector('.js-post-nav-template-text');
+    navItemTextEl.textContent = header.textContent;
+    
+    const navItemNumberEl = cloneNavItem.querySelector('.js-post-nav-template-number')
+    const number = index+1;
+    navItemNumberEl.textContent = number >= 10 ? number : '0'+number; 
+    
+    cloneNavItem.addEventListener('click',()=>{
+      if(window.locomotiveScroll){
+        window.locomotiveScroll.scrollTo(header)
+      } else {
+        gsap.to(window, {scrollTo: header});
+      }
+    })
+    navContainer.appendChild(cloneNavItem)
+  })
+  navTemplateItem.remove()
+}
+
+generateNavigation('.js-post-nav-container', '.js-post-nav-template')
+generateNavigation('.js-post-nav-container-popup', '.js-post-nav-template-popup')
+
+})()
+</script>
+
+
+<script src="../../cdn.finsweet.com/files/cmslibrary-v1.7.js"></script>
+<script>
+// cкрипт для next post RU
+(function() {
+  var fsPreviousNext = new FsLibrary (".ru-lib-post-list-hidden")
+  fsPreviousNext.prevnext ({
+    nextTarget: ".ru-post-next-target",
+    contentId: ".ru-post-number",
+    loadImages: ".post-load-image"
+  })
+})();
+</script>
+<script>
+// cкрипт для next post EN
+(function() {
+  var fsPreviousNext = new FsLibrary (".en-lib-post-list-hidden")
+  fsPreviousNext.prevnext ({
+    nextTarget: ".en-post-next-target",
+    contentId: ".en-post-number",
+    loadImages: ".post-load-image"
+  })
+})();
+</script>
+<script>
+// скрипт для подгрузки кмс в слайдер
+(()=>{
+const sliders = [...document.querySelectorAll('.lib-post-slider-container')];
+sliders.forEach((sliderContainer,index)=>{
+  const uniqueSelector = `lib-post-slider-container-${index}`;
+  sliderContainer.classList.add(uniqueSelector)
+  const dataFeedEl = sliderContainer.querySelector('.slider-data-feed')
+  const sliderEl = sliderContainer.querySelector('.lib-post-slider')
+  if(!dataFeedEl || !sliderEl) return;
+  const fsSlider = new FsLibrary(`.${uniqueSelector} .slider-data-feed`)
+  fsSlider.slider({
+    sliderComponent: `.${uniqueSelector} .lib-post-slider`,
+    resetIx: true
+  })  
+})
+})()
+</script>
+</body>
+<!-- Mirrored from sakharov.webflow.io/lib/intervyu-ulle-stenholmu by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 09 Nov 2022 15:40:05 GMT -->
+</html>
